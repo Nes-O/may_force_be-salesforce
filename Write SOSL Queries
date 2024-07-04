@@ -1,0 +1,8 @@
+public class ContactSearch {
+    public static List<Contact> searchForContacts(String firstString,String lastString){
+        Contact[] techContacts = [SELECT LastName,MailingPostalCode
+                          FROM Contact WHERE LastName =: firstString AND MailingPostalCode =: lastString];
+        return techContacts;
+    }
+
+}
