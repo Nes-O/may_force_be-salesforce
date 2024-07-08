@@ -1,0 +1,8 @@
+public class ContactAndLeadSearch {
+	public static List<List< sObject>> searchContactsAndLeads(String firstString)
+    {
+        List<List< sObject>> commonLastName = [FIND :firstString IN ALL FIELDS 
+                                          RETURNING Contact(Name), Lead(Name)];
+        return commonLastName;
+    }
+}
