@@ -1,0 +1,34 @@
+trigger TriggerName on ObjectName (trigger_events) 
+{
+   code_block
+}
+
+before insert
+before update
+before delete
+after insert
+after update
+after delete
+after undelete
+-----------------------------------------------------------------
+trigger HelloWorldTrigger on Account (before insert) 
+{
+	System.debug('Hello World !');
+}
+In Dev console 
+Account a = new Account (name = 'Test Trigger');
+insert a;
+-----------------------------------------------------------------
+trigger ContextExampleTrigger on Account (before insert, after insert, after delete) {
+    if (Trigger.isInsert) {
+        if (Trigger.isBefore) {
+            // Process before insert
+        } else if (Trigger.isAfter) {
+            // Process after insert
+        }
+    }
+    else if (Trigger.isDelete) {
+        // Process after delete
+    }
+}
+---------------------------------------------------------------
