@@ -10,7 +10,7 @@ after insert
 after update
 after delete
 after undelete
-
+-----------------------------------------------------------------
 trigger HelloWorldTrigger on Account (before insert) 
 {
 	System.debug('Hello World !');
@@ -18,7 +18,7 @@ trigger HelloWorldTrigger on Account (before insert)
 In Dev console 
 Account a = new Account (name = 'Test Trigger');
 insert a;
-
+-----------------------------------------------------------------
 trigger ContextExampleTrigger on Account (before insert, after insert, after delete) {
     if (Trigger.isInsert) {
         if (Trigger.isBefore) {
@@ -31,3 +31,4 @@ trigger ContextExampleTrigger on Account (before insert, after insert, after del
         // Process after delete
     }
 }
+---------------------------------------------------------------
