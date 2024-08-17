@@ -1,0 +1,5 @@
+SELECT Name, Account.Name FROM Contact
+
+SELECT Name, (SELECT Name FROM Contacts) FROM Account
+
+SELECT Name, (SELECT Name FROM Contacts) FROM Account WHERE Id IN (SELECT AccountId FROM Contact WHERE LastName = 'Forbes')
