@@ -1,0 +1,18 @@
+## Bulk create custom metadata records
+Usually for bulk creating records for sobjects we can use data loader and workbench. But the custom metadata records cannot be created like this. 
+But they can be created via third party apps.
+
+Now they can also be created via sfdx cli.
+I had csv which I had to modify using gpt (For 30 analysing skills it worked really fine)
+
+
+
+
+PS C:\New folder (3)> sfdx force:cmdt:record:insert --filepath "filepath to the csv" --typename metadataName_mdt
+ »   Warning: @salesforce/cli update available from 2.54.6 to 2.56.7.
+Error (SfError): The column FullName is not found on the custom metadata type Custom_Public_Holiday_Settings.
+
+I was getting varied different types of error one of them was location issue of saving the csv. It should be ideally stored under data folder.
+sfdx force:cmdt:record:insert --filepath "filepath/data/CSV.csv" --typename metadataName_mdt --namecolumn FullName
+Here for this issue this command worked.
+ 
