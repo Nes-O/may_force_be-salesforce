@@ -5,8 +5,9 @@ But they can be created via third party apps.
 Now they can also be created via sfdx cli.
 I had csv which I had to modify using gpt (For 30 analysing skills it worked really fine)
 
-
-
+PS C:\--\New folder (3)\--> sfdx force:cmdt:record:insert --filepath data/ISOCodes.csv --typename xcdhcm__Custom_Public_Holiday_Settings__mdt
+ »   Warning: @salesforce/cli update available from 2.54.6 to 2.56.7.
+Error (ENOENT): ENOENT: no such file or directory, scandir 'C:\---\New folder (3)\---\force-app\main\default\objects\metadataName_mdt\fields'
 
 PS C:\New folder (3)> sfdx force:cmdt:record:insert --filepath "filepath to the csv" --typename metadataName_mdt
  »   Warning: @salesforce/cli update available from 2.54.6 to 2.56.7.
