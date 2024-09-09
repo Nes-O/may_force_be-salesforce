@@ -5,15 +5,20 @@ But they can be created via third party apps.
 Now they can also be created via sfdx cli.
 I had csv which I had to modify using gpt (For 30 analysing skills it worked really fine)
 
-PS C:\--\New folder (3)\--> sfdx force:cmdt:record:insert --filepath data/ISOCodes.csv --typename xcdhcm__Custom_Public_Holiday_Settings__mdt
+PS C:\--\New folder (3)\--> sfdx force:cmdt:record:insert --filepath data/csv_name.csv --typename xcdhcm__Custom_Public_Holiday_Settings__mdt
  »   Warning: @salesforce/cli update available from 2.54.6 to 2.56.7.
 Error (ENOENT): ENOENT: no such file or directory, scandir 'C:\---\New folder (3)\---\force-app\main\default\objects\metadataName_mdt\fields'
 
 PS C:\New folder (3)> sfdx force:cmdt:record:insert --filepath "filepath to the csv" --typename metadataName_mdt
  »   Warning: @salesforce/cli update available from 2.54.6 to 2.56.7.
-Error (SfError): The column FullName is not found on the custom metadata type Custom_Public_Holiday_Settings.
+Error (SfError): The column FullName is not found on the custom metadata type .
 
 I was getting varied different types of error one of them was location issue of saving the csv. It should be ideally stored under data folder.
 sfdx force:cmdt:record:insert --filepath "filepath/data/CSV.csv" --typename metadataName_mdt --namecolumn FullName
 Here for this issue this command worked.
+
+Now once the insertion was done I had to make sure the records that I inserted where correct in accordance with the csv.
+So I used Salesforce Inspector to extract the metadatas into a csv format and then I did conditional formatting 
+on the previous one of csv which I used to upload and the export that I did so as to verify if both of the records values
+are same or not. 
  
