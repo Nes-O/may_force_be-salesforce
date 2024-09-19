@@ -1,0 +1,6 @@
+Package in Salesforce
+As per my understanding the word package is similar to jotting up everything and putting in a box. 
+So in Salesforce, a package is a container that allows you to bundle together custom metadata, code, and other components into a single, distributable unit. 
+Salesforce packages are not just limited to code and metadata. They can also include components like custom settings, email templates, reports, 
+  dashboards, and even lightning components. The versatility makes packages a powerful tool for developers looking to share a wide range of customizations with 
+    others in a structured and organized manner.
