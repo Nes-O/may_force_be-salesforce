@@ -4,3 +4,22 @@ So in Salesforce, a package is a container that allows you to bundle together cu
 Salesforce packages are not just limited to code and metadata. They can also include components like custom settings, email templates, reports, 
   dashboards, and even lightning components. The versatility makes packages a powerful tool for developers looking to share a wide range of customizations with 
     others in a structured and organized manner.
+
+
+Managed packages
+These packages are primarily distributed through the Salesforce AppExchange, which ensures they meet quality standards and undergo a security review. 
+They are intended for production-ready applications and pre-built functionalities that don't need to be modified.
+Unmanaged packages
+These packages can be installed from various sources, including Salesforce AppExchange, GitHub, or directly from a URL. 
+They are typically used for sharing customizations, open-source solutions, or sample code.
+
+Security
+Managed packages offer security and protect components, while unmanaged packages have no built-in security. 
+Customization
+Unmanaged packages are fully customizable, while managed packages are intended for pre-built functionalities. 
+Distribution
+Managed packages are primarily distributed through the Salesforce AppExchange, while unmanaged packages can be installed from various sources. 
+Cost
+Unmanaged packages don't have licensing or distribution costs because they aren't distributed on AppExchange. 
+Upgradability
+Managed packages can be upgraded without modifying your org, while unmanaged packages cannot be upgraded once a new version is released.
