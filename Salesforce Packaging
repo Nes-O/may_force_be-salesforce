@@ -30,6 +30,14 @@ Components in unmanaged packages are customizable. While the components of manag
 and cannot be modified by the installing organization. 
 Fields and Objects	The installing organization can add, edit, or delete.	Cannot be modified, but the installer can add new ones
 Apex classes, and triggers	The installer can modify.	The installer cannot access or change Apex classes and triggers.
-Visualforce pages and components	The installer can edit or modify the markup and controller of the Visualforce pages and components.	The installer can modify the Visualforce pages and components.
+Visualforce pages and components	The installer can edit or modify the markup and controller of the Visualforce pages and components.	
+The installer can modify the Visualforce pages and components.
 Lightning components and applications	The installer can edit the code, and configure.	Can’t be modified by the installer.
-Flows and processes	Can be edited or deleted by the installer.	Cannot be modified. The installer can only activate or deactivate them.
+Flows and processes	Can be edited or deleted by the installer.	Cannot be modified. 
+The installer can only activate or deactivate them.
+
+Unmanaged packages can be easily installed from the link or file shared by the developer. 
+The developer can share the package with anyone. The installer does not need a Salesforce account or the AppExchange.
+Managed packages, on the other hand, can be installed either through the install link shared by the developer or from AppExchange. 
+The installer needs a Salesforce account and the AppExchange or a link to install the package. 
+The developer can limit access to the package and monitor the installation data.
