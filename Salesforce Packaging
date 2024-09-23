@@ -23,3 +23,13 @@ Cost
 Unmanaged packages don't have licensing or distribution costs because they aren't distributed on AppExchange. 
 Upgradability
 Managed packages can be upgraded without modifying your org, while unmanaged packages cannot be upgraded once a new version is released.
+
+Unlocked packages offer more advanced dependency management features. Source code access: Unlocked packages provide access to the source code,
+while unmanaged packages do not.
+Components in unmanaged packages are customizable. While the components of managed packages are locked, 
+and cannot be modified by the installing organization. 
+Fields and Objects	The installing organization can add, edit, or delete.	Cannot be modified, but the installer can add new ones
+Apex classes, and triggers	The installer can modify.	The installer cannot access or change Apex classes and triggers.
+Visualforce pages and components	The installer can edit or modify the markup and controller of the Visualforce pages and components.	The installer can modify the Visualforce pages and components.
+Lightning components and applications	The installer can edit the code, and configure.	Can’t be modified by the installer.
+Flows and processes	Can be edited or deleted by the installer.	Cannot be modified. The installer can only activate or deactivate them.
