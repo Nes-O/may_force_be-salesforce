@@ -48,3 +48,12 @@ The developer can share the package with anyone. The installer does not need a S
 Managed packages, on the other hand, can be installed either through the install link shared by the developer or from AppExchange. 
 The installer needs a Salesforce account and the AppExchange or a link to install the package. 
 The developer can limit access to the package and monitor the installation data.
+
+
+Managed packages are used by Salesforce partners to distribute and sell applications to customers.
+Using AppExchange and the License Management Application (LMA), developers can sell and manage user-based licenses
+to their app. Managed packages are upgradeable.
+You’ve been using first-generation managed packages to develop your apps, so you’re probably pretty familiar with what 
+works well, and what’s a bit more painful than you’d like. And no doubt, you’re aware that second-generation managed 
+packages is our newer technology, but maybe you aren’t so sure why switching to second-generation managed packaging
+(managed 2GP) will improve your package development experience. So let’s talk about that.
