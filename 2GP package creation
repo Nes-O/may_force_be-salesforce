@@ -1,4 +1,5 @@
 Create 2GP managed package
-2GP it actually means there is one existing packaged code
-Over that you are putting dome other codes
-and packaging again
+The 2GP Package in Salesforce refers to the Second-Generation Managed Package, a modern packaging framework designed to 
+simplify and improve app development and distribution on the Salesforce platform. 
+It is an evolution of the First-Generation Managed Package (1GP) and provides developers with a more streamlined and 
+flexible development lifecycle.
