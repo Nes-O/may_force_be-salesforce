@@ -3,3 +3,6 @@ The 2GP Package in Salesforce refers to the Second-Generation Managed Package, a
 simplify and improve app development and distribution on the Salesforce platform. 
 It is an evolution of the First-Generation Managed Package (1GP) and provides developers with a more streamlined and 
 flexible development lifecycle.
+
+If you are starting a new project, Salesforce recommends using 2GP or Unlocked Packages for modern and scalable development workflows. 
+1GP is generally discouraged for new development projects.
