@@ -12,3 +12,15 @@ Enable dev hub in your org.
 Enable second-generation managed packages.
 Install Salesforce CLI.
 Create and Register your Namespace.
+
+Create a DX project.
+2gp package salesforce
+Authorize the Dev Hub org, and create a scratch org.
+2gp package salesforce
+Create a scratch org and develop the app you want to package.
+2gp package salesforce
+Verify that all package components are in the project directory where you want to create a package.
+In the sfdx-project.json file, specify a namespace using the namespace attribute. For example: “namespace”: “hotel-mgr”
+From the Salesforce DX project directory, create the package.
+2gp package salesforce
+Review your sfdx-project.json file.
