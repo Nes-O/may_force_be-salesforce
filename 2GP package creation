@@ -6,3 +6,9 @@ flexible development lifecycle.
 
 If you are starting a new project, Salesforce recommends using 2GP or Unlocked Packages for modern and scalable development workflows. 
 1GP is generally discouraged for new development projects.
+
+
+Enable dev hub in your org.
+Enable second-generation managed packages.
+Install Salesforce CLI.
+Create and Register your Namespace.
