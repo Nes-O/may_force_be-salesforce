@@ -1,0 +1,11 @@
+Let’s start with Prompt Builder in Salesforce, which is used to integrate generative AI into various workflows, enhancing user efficiency and customizing interactions through AI-generated content. 
+Users can create different types of prompt templates, such as Sales Email, Field Generation, and Flex, which are adaptable to various data types and use cases within the Salesforce Platform. 
+
+These templates leverage customer relationship management (CRM) data and can be invoked via Salesforce’s platform tools, allowing users to generate personalized communications and content dynamically. 
+The management and customization of these templates involve a user interface (UI) where admins can revise and perfect templates based on feedback and performance, ensuring the AI outputs meet the desired standards and effectiveness.
+
+Next, we have Einstein Copilot which enables users to interact with the system using natural language to perform tasks and retrieve information, effectively enhancing productivity by drawing answers from secure company data. 
+The tool is embedded within the Salesforce ecosystem, respecting existing access controls and integrating with the Einstein Trust Layer for ethical and secure AI operations. 
+
+Users can engage in conversational exchanges with Copilot, asking questions and receiving context-aware responses, thus simplifying tasks like summarizing deals or drafting emails without needing advanced technical skills. 
+Unlike Einstein Bots, which require extensive setup and operate on rigid rules, Einstein Copilot offers a more user-friendly and flexible approach, utilizing a large language model (LLM) to understand and respond to user requests in a conversational manner.
